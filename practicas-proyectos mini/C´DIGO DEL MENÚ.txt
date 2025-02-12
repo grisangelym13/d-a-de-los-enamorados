@@ -1,0 +1,74 @@
+ <h2>Explorar más:</h2>
+          
+          <div class="menu-items">
+          
+            <div class="menu-item">
+              <img src="" alt=""><br>
+              <h3>plato 1</h3>
+              <p>$24.00</p><br>
+              <a href="#" class="btn">compre</a>
+            </div>
+            
+            <div class="menu-item">
+              <img src="" alt=""><br>
+              <h3>plato 2</h3>
+              <p>$24.00</p><br>
+              <a href="#" class="btn">compre</a>
+            </div>
+            
+            <div class="menu-item">
+              <img src="" alt=""><br>
+              <h3>plato 3</h3>
+              <p>$24.00</p><br>
+              <a href="#" class="btn">compre</a>
+            </div>
+          </div>
+        </section>
+        
+        
+        <footer class="footer">
+          <p>© 2025 Grisangely.holacocacola.</p>
+        </footer>
+        
+      </body>
+      </html>
+</body>
+</html>
+
+
+
+CSS
+.btn {
+    padding: 5px 10px;
+    background-color: #639FAB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .menu {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .menu h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 150px;
+    border-radius: 10px;
+  }
